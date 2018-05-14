@@ -10,3 +10,4 @@ def setinfo(name):
         if line.split(': ')[0] == name:
             return line.split(': ')[1][:-1]
     return "None"
+
